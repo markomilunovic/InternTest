@@ -15,34 +15,31 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: 100vh; /* Ensure the body takes the full height of the viewport */
-    margin: 0; /* Remove default margin to ensure full width */
+    height: 100vh;
+    margin: 0; 
   }
   
   .buttons {
     display: flex;
-    gap: 10px; /* Adjust the gap between buttons as needed */
+    gap: 10px; 
   }
   
   .buttons button {
-    /* Set a specific border-radius for rounded corners */
-    border-radius: 10px; /* You can adjust the value to your preference */
+    border-radius: 10px; 
   
-    /* Add other styling properties as needed */
-    background-color: #3498db; /* Button background color */
-    color: #ffffff; /* Text color */
-    padding: 10px 20px; /* Padding for the button content */
-    font-size: 16px; /* Font size */
-    cursor: pointer; /* Add a pointer cursor on hover */
+    background-color: #3498db; 
+    color: #ffffff; 
+    padding: 10px 20px; 
+    font-size: 16px; 
+    cursor: pointer; 
   }
   
-  /* Add a hover effect */
   .buttons button:hover {
-    background-color: #2980b9; /* Change background color on hover */
+    background-color: #2980b9; 
   }
   
   #promotionsList {
-    text-align: center; /* Center the content within the promotionsList div */
+    text-align: center; 
   }
 
 .promotion p {
