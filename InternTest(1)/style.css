@@ -1,0 +1,51 @@
+
+button:hover{
+    background-color: skyblue;
+    color: white;
+   
+}
+
+button {
+    border-radius: 3px;
+    
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /* Ensure the body takes the full height of the viewport */
+    margin: 0; /* Remove default margin to ensure full width */
+  }
+  
+  .buttons {
+    display: flex;
+    gap: 10px; /* Adjust the gap between buttons as needed */
+  }
+  
+  .buttons button {
+    /* Set a specific border-radius for rounded corners */
+    border-radius: 10px; /* You can adjust the value to your preference */
+  
+    /* Add other styling properties as needed */
+    background-color: #3498db; /* Button background color */
+    color: #ffffff; /* Text color */
+    padding: 10px 20px; /* Padding for the button content */
+    font-size: 16px; /* Font size */
+    cursor: pointer; /* Add a pointer cursor on hover */
+  }
+  
+  /* Add a hover effect */
+  .buttons button:hover {
+    background-color: #2980b9; /* Change background color on hover */
+  }
+  
+  #promotionsList {
+    text-align: center; /* Center the content within the promotionsList div */
+  }
+
+.promotion p {
+  text-align: center;
+}
+  
